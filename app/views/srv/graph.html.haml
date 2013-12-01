@@ -1,0 +1,10 @@
+%h1
+  Graph for my SRV system
+%p fmax = #{@parameters.fmax}
+%p tmax = #{@parameters.tmax}
+%p V max = #{@parameters.v_max}
+%p tV max = #{@parameters.tv_max}
+%p delta t diskrete = #{@parameters.del_t_diskret}
+%p number of diskratisation points = #{@parameters.points}
+#container_for_real_graph{ 'data-for_real_graph' => @data_for_real_graph }
+#container_for_model_graph{ 'data-for_model_graph' => @data_for_model_graph }
